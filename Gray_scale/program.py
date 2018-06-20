@@ -20,7 +20,7 @@ from PIL import Image, ImageTk
 def main():
 
     image_path = locate_image()
-    print(change_to_gray_scale(image_path))
+    change_to_gray_scale(image_path)
     image_str = (image_path.strip(".jpg") + "_colorless.jpg")  # Added because imwrite returns bool and not an object.
     gray_image_name = os.path.split(image_str)[1]
 
