@@ -31,8 +31,6 @@ def main():
     window.geometry("%sx%s" % (w, h))  # String formatting to take the H & W of the screen to create the Canvas.
     w = Canvas(window, width=w, height=h)
 
-    # open_button = Button(window, text="Open Image", command=display_image).pack()
-
     color_img = ImageTk.PhotoImage(Image.open(image_path))
     gray_img = ImageTk.PhotoImage(Image.open(gray_image_name))
 
@@ -41,12 +39,6 @@ def main():
     w.pack()
 
     window.mainloop()
-
-# def display_image_window():
-
-# def open_file():
-#     filename = filedialog.askopenfilename(title='open')
-#     return filename
 
 
 def locate_image():
