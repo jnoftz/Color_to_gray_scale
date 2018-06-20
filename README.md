@@ -1,5 +1,5 @@
 TODO:
-1: create_image needs to have % coded because the function does not support non hardcoded numbers.	
+1: create_image needs to have % coded because the function does not support non hardcoded numbers.	\n
 2: Have it be able to locate an image that is not directly in the root folder of the program when displaying it in tkinter window.	
 3: Add live edit between gray scale and color.
 
